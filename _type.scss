@@ -1,0 +1,44 @@
+$default-font-family: Arial, sans-serif;
+$font-family: if(variable-exists(font-family), $font-family, $default-font-family);
+$font-base-size: 16px;
+
+.app-font {
+  font-family: $font-family;
+  font-size: $font-base-size;
+}
+.italic {
+  font-style: italic;
+}
+.light {
+  font-weight: 300;
+}
+.semi-bold {
+  font-weight: 400;
+}
+.bold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.font1 { font-size: $font-base-size + 1; }
+.font2 { font-size: $font-base-size + 2; }
+.font3 { font-size: $font-base-size + 3; }
+.font4 { font-size: $font-base-size + 4; }
+.font5 { font-size: $font-base-size + 5; }
+
+.font-1 { font-size: $font-base-size - 1; }
+.font-2 { font-size: $font-base-size - 2; }
+.font-3 { font-size: $font-base-size - 3; }
+.font-4 { font-size: $font-base-size - 4; }
+.font-5 { font-size: $font-base-size - 5; }
+
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+.text-center { text-align: center; }
+
+.line140 { line-height: 140%; }
+.line180 { line-height: 180%; }
+.line200 { line-height: 200%; }

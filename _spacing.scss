@@ -1,0 +1,65 @@
+$spacing-unit: 8px;
+
+.p0 { padding: 0; }
+.p1 { padding: 1 * $spacing-unit; }
+.p2 { padding: 2 * $spacing-unit; }
+.p3 { padding: 3 * $spacing-unit; }
+.p4 { padding: 4 * $spacing-unit; }
+.p5 { padding: 5 * $spacing-unit; }
+.p0-top { padding-top: 0; }
+.p1-top { padding-top: 1 * $spacing-unit; }
+.p2-top { padding-top: 2 * $spacing-unit; }
+.p3-top { padding-top: 3 * $spacing-unit; }
+.p4-top { padding-top: 4 * $spacing-unit; }
+.p5-top { padding-top: 5 * $spacing-unit; }
+.p0-right { padding-right: 0; }
+.p1-right { padding-right: 1 * $spacing-unit; }
+.p2-right { padding-right: 2 * $spacing-unit; }
+.p3-right { padding-right: 3 * $spacing-unit; }
+.p4-right { padding-right: 4 * $spacing-unit; }
+.p5-right { padding-right: 5 * $spacing-unit; }
+.p0-bottom { padding-bottom: 0; }
+.p1-bottom { padding-bottom: 1 * $spacing-unit; }
+.p2-bottom { padding-bottom: 2 * $spacing-unit; }
+.p3-bottom { padding-bottom: 3 * $spacing-unit; }
+.p4-bottom { padding-bottom: 4 * $spacing-unit; }
+.p5-bottom { padding-bottom: 5 * $spacing-unit; }
+.p0-left { padding-left: 0; }
+.p1-left { padding-left: 1 * $spacing-unit; }
+.p2-left { padding-left: 2 * $spacing-unit; }
+.p3-left { padding-left: 3 * $spacing-unit; }
+.p4-left { padding-left: 4 * $spacing-unit; }
+.p5-left { padding-left: 5 * $spacing-unit; }
+.p1-h { padding: 0 1 * $spacing-unit; }
+.p2-h { padding: 0 2 * $spacing-unit; }
+
+.m1 { margin: 1 * $spacing-unit; }
+.m2 { margin: 2 * $spacing-unit; }
+.m3 { margin: 3 * $spacing-unit; }
+.m4 { margin: 4 * $spacing-unit; }
+.m5 { margin: 5 * $spacing-unit; }
+.m1-top { margin-top: 1 * $spacing-unit; }
+.m2-top { margin-top: 2 * $spacing-unit; }
+.m3-top { margin-top: 3 * $spacing-unit; }
+.m4-top { margin-top: 4 * $spacing-unit; }
+.m5-top { margin-top: 5 * $spacing-unit; }
+.m1-right { margin-right: 1 * $spacing-unit; }
+.m2-right { margin-right: 2 * $spacing-unit; }
+.m3-right { margin-right: 3 * $spacing-unit; }
+.m4-right { margin-right: 4 * $spacing-unit; }
+.m5-right { margin-right: 5 * $spacing-unit; }
+.m1-bottom { margin-bottom: 1 * $spacing-unit; }
+.m2-bottom { margin-bottom: 2 * $spacing-unit; }
+.m3-bottom { margin-bottom: 3 * $spacing-unit; }
+.m4-bottom { margin-bottom: 4 * $spacing-unit; }
+.m5-bottom { margin-bottom: 5 * $spacing-unit; }
+.m1-left { margin-left: 1 * $spacing-unit; }
+.m2-left { margin-left: 2 * $spacing-unit; }
+.m3-left { margin-left: 3 * $spacing-unit; }
+.m4-left { margin-left: 4 * $spacing-unit; }
+.m5-left { margin-left: 5 * $spacing-unit; }
+
+.m-1-right { margin-right: -1 * $spacing-unit; }
+.m-2-right { margin-right: -2 * $spacing-unit; }
+.m-1-left { margin-left: -1 * $spacing-unit; }
+.m-2-left { margin-left: -2 * $spacing-unit; }

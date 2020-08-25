@@ -1,0 +1,43 @@
+.fade-enter-active, .fade-leave-active { transition: opacity .5s }
+.fade-leave-active { height: 0px; }
+.fade-enter, .fade-leave-to { opacity: 0 }
+
+.fade-in-enter-active { transition: opacity .5s }
+.fade-in-leave-active { display: none; }
+.fade-in-enter { opacity: 0 }
+
+.appear-enter-active, .appear-leave-active { transition: transform .5s }
+.appear-enter, .appear-leave-to { transform: scale(0) }
+
+.appear-v-enter-active, .appear-v-leave-active { transition: transform .5s }
+.appear-v-enter, .appear-v-leave-to { transform: scaleY(0) }
+
+.slide-up-enter-active, .slide-up-leave-active { transition: transform .5s }
+.slide-up-enter, .slide-up-leave-to { transform: translateY(100%) }
+
+.slide-left-enter-active {
+  animation: slide-from-right 400ms ease-out forwards;
+}
+.slide-left-leave-active {
+  position: absolute;
+  animation: slide-to-left 300ms ease-in forwards;
+}
+
+.slide-right-enter-active {
+  animation: slide-from-left 400ms ease-out forwards;
+}
+.slide-right-leave-active {
+  position: absolute;
+  animation: slide-to-right 300ms ease-in forwards;
+}
+
+.collapse-enter-active, .collapse-leave-active {
+  & > * {
+    transition: max-height 1.5s
+  }
+}
+.collapse-enter, .collapse-leave-to {
+  & > * {
+    max-height: 0px;
+  }
+}
