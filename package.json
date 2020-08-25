@@ -1,0 +1,22 @@
+{
+  "name": "tentkeep-sass",
+  "version": "1.0.0",
+  "description": "sass styles for Tentkeep web properties",
+  "main": "base.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tentkeep/sass.git"
+  },
+  "keywords": [
+    "tentkeep"
+  ],
+  "author": "Tentkeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tentkeep/sass/issues"
+  },
+  "homepage": "https://github.com/tentkeep/sass#readme"
+}
