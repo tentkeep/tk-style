@@ -53,17 +53,17 @@
     calc(var(--secondaryB) + (2 * var(--light-factor)))
   );
 
-  --tertiaryR: 120; --tertiaryG: 120; --tertiaryB: 122;
-  --tertiary: rgb(var(--tertiaryR), var(--tertiaryG), var(--tertiaryB));
-  --tertiary2: rgb(
-    calc(var(--tertiaryR) + var(--light-factor)),
-    calc(var(--tertiaryG) + var(--light-factor)),
-    calc(var(--tertiaryB) + var(--light-factor))
+  --mutedR: 120; --mutedG: 120; --mutedB: 122;
+  --muted: rgb(var(--mutedR), var(--mutedG), var(--mutedB));
+  --muted2: rgb(
+    calc(var(--mutedR) + var(--light-factor)),
+    calc(var(--mutedG) + var(--light-factor)),
+    calc(var(--mutedB) + var(--light-factor))
   );
-  --tertiary3: rgb(
-    calc(var(--tertiaryR) + (2 * var(--light-factor))),
-    calc(var(--tertiaryG) + (2 * var(--light-factor))),
-    calc(var(--tertiaryB) + (2 * var(--light-factor)))
+  --muted3: rgb(
+    calc(var(--mutedR) + (2 * var(--light-factor))),
+    calc(var(--mutedG) + (2 * var(--light-factor))),
+    calc(var(--mutedB) + (2 * var(--light-factor)))
   );
 
   --shadow-color: rgb(10,20,80);
@@ -80,9 +80,9 @@
 .secondary { color: var(--secondary); }
 .secondary2 { color: var(--secondary2); }
 .secondary3 { color: var(--secondary3); }
-.tertiary { color: var(--tertiary); }
-.tertiary2 { color: var(--tertiary2); }
-.tertiary3 { color: var(--tertiary3); }
+.muted { color: var(--muted); }
+.muted2 { color: var(--muted2); }
+.muted3 { color: var(--muted3); }
 .error { color: var(--error); }
 
 .bg-clear { background-color: transparent; }
@@ -98,9 +98,9 @@
 .bg-secondary { background-color: var(--secondary); }
 .bg-secondary2 { background-color: var(--secondary2); }
 .bg-secondary3 { background-color: var(--secondary3); }
-.bg-tertiary { background-color: var(--tertiary); }
-.bg-tertiary2 { background-color: var(--tertiary2); }
-.bg-tertiary3 { background-color: var(--tertiary3); }
+.bg-muted { background-color: var(--muted); }
+.bg-muted2 { background-color: var(--muted2); }
+.bg-muted3 { background-color: var(--muted3); }
 .bg-error { background-color: var(--error); }
 
 .no-border { border: none; }
@@ -169,21 +169,21 @@
 .border-left-secondary2 { border-left: solid 1px var(--secondary2); }
 .border-left-secondary3 { border-left: solid 1px var(--secondary3); }
 
-.border-tertiary { border: solid 1px var(--tertiary); }
-.border-tertiary2 { border: solid 1px var(--tertiary2); }
-.border-tertiary3 { border: solid 1px var(--tertiary3); }
-.border-top-tertiary { border-top: solid 1px var(--tertiary); }
-.border-top-tertiary2 { border-top: solid 1px var(--tertiary2); }
-.border-top-tertiary3 { border-top: solid 1px var(--tertiary3); }
-.border-right-tertiary { border-right: solid 1px var(--tertiary); }
-.border-right-tertiary2 { border-right: solid 1px var(--tertiary2); }
-.border-right-tertiary3 { border-right: solid 1px var(--tertiary3); }
-.border-bottom-tertiary { border-bottom: solid 1px var(--tertiary); }
-.border-bottom-tertiary2 { border-bottom: solid 1px var(--tertiary2); }
-.border-bottom-tertiary3 { border-bottom: solid 1px var(--tertiary3); }
-.border-left-tertiary { border-left: solid 1px var(--tertiary); }
-.border-left-tertiary2 { border-left: solid 1px var(--tertiary2); }
-.border-left-tertiary3 { border-left: solid 1px var(--tertiary3); }
+.border-muted { border: solid 1px var(--muted); }
+.border-muted2 { border: solid 1px var(--muted2); }
+.border-muted3 { border: solid 1px var(--muted3); }
+.border-top-muted { border-top: solid 1px var(--muted); }
+.border-top-muted2 { border-top: solid 1px var(--muted2); }
+.border-top-muted3 { border-top: solid 1px var(--muted3); }
+.border-right-muted { border-right: solid 1px var(--muted); }
+.border-right-muted2 { border-right: solid 1px var(--muted2); }
+.border-right-muted3 { border-right: solid 1px var(--muted3); }
+.border-bottom-muted { border-bottom: solid 1px var(--muted); }
+.border-bottom-muted2 { border-bottom: solid 1px var(--muted2); }
+.border-bottom-muted3 { border-bottom: solid 1px var(--muted3); }
+.border-left-muted { border-left: solid 1px var(--muted); }
+.border-left-muted2 { border-left: solid 1px var(--muted2); }
+.border-left-muted3 { border-left: solid 1px var(--muted3); }
 
 .shadow { box-shadow: 0 2px 5px var(--shadow-color); }
 .shadow-top { box-shadow: 0 -5px 20px var(--shadow-color); }

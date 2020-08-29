@@ -40,20 +40,20 @@ hr {
 // }
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  @extend .tertiary;
+  @extend .muted;
   @extend .font1;
   @extend .italic;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  @extend .tertiary;
+  @extend .muted;
   @extend .italic;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  @extend .tertiary;
+  @extend .muted;
   @extend .italic;
 }
 :-moz-placeholder { /* Firefox 18- */
-  @extend .tertiary;
+  @extend .muted;
   @extend .italic;
 }
 
