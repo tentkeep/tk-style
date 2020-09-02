@@ -1,3 +1,4 @@
+@import "variables";
 @import "colors";
 @import "flex";
 @import "type";
@@ -63,10 +64,16 @@ hr {
 
 // VIEW ITEMS
 .button {
-  @extend .p2;
+  @extend .p1;
   @extend .p3-left;
   @extend .p3-right;
-  border: none;
+  @extend .border-right-primary2;
+  @extend .border-left-primary2;
+  @extend .bg-primary;
+  @extend .hi;
+  @extend .uppercase;
+  border-top: none;
+  border-bottom: none;
   border-radius: 4px;
   font-size: 16px;
   border-radius: 30px;
