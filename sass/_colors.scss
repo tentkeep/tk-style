@@ -12,7 +12,6 @@
 .secondary3 { color: var(--secondary3); }
 
 .muted { color: var(--muted); }
-.muted { color: var(--muted); }
 .muted2 { color: var(--muted2); }
 .muted3 { color: var(--muted3); }
 .error { color: var(--error); }
@@ -37,21 +36,21 @@
 
 .no-border { border: none; }
 
-.border-base { border: solid 1px var(--base); }
-.border-base2 { border: solid 1px var(--base2); }
-.border-base3 { border: solid 1px var(--base3); }
-.border-top-base { border-top: solid 1px var(--base); }
-.border-top-base2 { border-top: solid 1px var(--base2); }
-.border-top-base3 { border-top: solid 1px var(--base3); }
-.border-right-base { border-right: solid 1px var(--base); }
-.border-right-base2 { border-right: solid 1px var(--base2); }
-.border-right-base3 { border-right: solid 1px var(--base3); }
-.border-bottom-base { border-bottom: solid 1px var(--base); }
-.border-bottom-base2 { border-bottom: solid 1px var(--base2); }
-.border-bottom-base3 { border-bottom: solid 1px var(--base3); }
-.border-left-base { border-left: solid 1px var(--base); }
-.border-left-base2 { border-left: solid 1px var(--base2); }
-.border-left-base3 { border-left: solid 1px var(--base3); }
+.border-base { border: solid 1px var(--base-color); }
+.border-base2 { border: solid 1px var(--base-color2); }
+.border-base3 { border: solid 1px var(--base-color3); }
+.border-top-base { border-top: solid 1px var(--base-color); }
+.border-top-base2 { border-top: solid 1px var(--base-color2); }
+.border-top-base3 { border-top: solid 1px var(--base-color3); }
+.border-right-base { border-right: solid 1px var(--base-color); }
+.border-right-base2 { border-right: solid 1px var(--base-color2); }
+.border-right-base3 { border-right: solid 1px var(--base-color3); }
+.border-bottom-base { border-bottom: solid 1px var(--base-color); }
+.border-bottom-base2 { border-bottom: solid 1px var(--base-color2); }
+.border-bottom-base3 { border-bottom: solid 1px var(--base-color3); }
+.border-left-base { border-left: solid 1px var(--base-color); }
+.border-left-base2 { border-left: solid 1px var(--base-color2); }
+.border-left-base3 { border-left: solid 1px var(--base-color3); }
 
 .border-contrast { border: solid 1px var(--contrast); }
 .border-contrast2 { border: solid 1px var(--contrast2); }
