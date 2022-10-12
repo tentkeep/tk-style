@@ -39,6 +39,16 @@
     calc(var(--primaryG) + (2 * var(--light-factor))),
     calc(var(--primaryB) + (2 * var(--light-factor)))
   );
+  --primary-2: rgb(
+    calc(var(--primaryR) - var(--light-factor)),
+    calc(var(--primaryG) - var(--light-factor)),
+    calc(var(--primaryB) - var(--light-factor))
+  );
+  --primary-3: rgb(
+    calc(var(--primaryR) - (2 * var(--light-factor))),
+    calc(var(--primaryG) - (2 * var(--light-factor))),
+    calc(var(--primaryB) - (2 * var(--light-factor)))
+  );
 
   --secondaryR: 171; --secondaryG: 154; --secondaryB: 99;
   --secondary: rgb(var(--secondaryR), var(--secondaryG), var(--secondaryB));
@@ -51,6 +61,16 @@
     calc(var(--secondaryR) + (2 * var(--light-factor))),
     calc(var(--secondaryG) + (2 * var(--light-factor))),
     calc(var(--secondaryB) + (2 * var(--light-factor)))
+  );
+  --secondary-2: rgb(
+    calc(var(--secondaryR) - var(--light-factor)),
+    calc(var(--secondaryG) - var(--light-factor)),
+    calc(var(--secondaryB) - var(--light-factor))
+  );
+  --secondary-3: rgb(
+    calc(var(--secondaryR) - (2 * var(--light-factor))),
+    calc(var(--secondaryG) - (2 * var(--light-factor))),
+    calc(var(--secondaryB) - (2 * var(--light-factor)))
   );
 
   --mutedR: 10; --mutedG: 20; --mutedB: 160;
@@ -66,6 +86,16 @@
     calc(var(--mutedR) + (2 * var(--light-factor))),
     calc(var(--mutedG) + (2 * var(--light-factor))),
     calc(var(--mutedB) + (2 * var(--light-factor)))
+  );
+  --muted-2: rgb(
+    calc(var(--mutedR) - var(--light-factor)),
+    calc(var(--mutedG) - var(--light-factor)),
+    calc(var(--mutedB) - var(--light-factor))
+  );
+  --muted-3: rgb(
+    calc(var(--mutedR) - (2 * var(--light-factor))),
+    calc(var(--mutedG) - (2 * var(--light-factor))),
+    calc(var(--mutedB) - (2 * var(--light-factor)))
   );
 
   --shadow-color: rgb(10,20,80);
