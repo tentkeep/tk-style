@@ -74,9 +74,7 @@
   );
 
   --mutedR: 10; --mutedG: 20; --mutedB: 160;
-  --muted: rgba(var(--mutedR), var(--mutedG), var(--mutedB));
-  /* --mutedR: 120; --mutedG: 120; --mutedB: 122;
-  --muted: rgb(var(--mutedR), var(--mutedG), var(--mutedB)); */
+  --muted: rgb(var(--mutedR), var(--mutedG), var(--mutedB));
   --muted2: rgb(
     calc(var(--mutedR) + var(--light-factor)),
     calc(var(--mutedG) + var(--light-factor)),
