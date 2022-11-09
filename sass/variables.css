@@ -1,4 +1,5 @@
 :root {
+  --spacing-unit: 8px;
   --light-factor: 40;
 
   --base-colorR: 245; --base-colorG: 245; --base-colorB: 245;
