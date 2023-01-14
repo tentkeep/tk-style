@@ -6,6 +6,15 @@
 .h-fill-min { min-width: 100%; }
 .v-fill-max { max-height: 100%; }
 .h-fill-max { max-width: 100%; }
+.h-100 {
+  min-height: 100px;
+}
+.h-200 {
+  min-height: 200px;
+}
+.h-300 {
+  min-height: 300px;
+}
 
 .inline { display: inline-block; }
 .relative { position: relative; }
@@ -87,4 +96,20 @@ $z-offset: 100;
     filter: blur(10px);
     z-index: 0;
   }
+}
+
+.square:after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+.ratio-4-3:after {
+  content: '';
+  display: block;
+  padding-bottom: 75%;
+}
+.ratio-16-9:after {
+  content: '';
+  display: block;
+  padding-bottom: 56.25%;
 }

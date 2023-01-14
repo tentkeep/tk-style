@@ -42,3 +42,25 @@ $font-base-size: 16px;
 .line140 { line-height: 140%; }
 .line180 { line-height: 180%; }
 .line200 { line-height: 200%; }
+
+.limit2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.limit3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.superscript {
+  margin-top: -2px;
+  font-size: 12px;
+}
