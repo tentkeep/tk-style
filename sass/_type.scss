@@ -43,6 +43,14 @@ $font-base-size: 16px;
 .line180 { line-height: 180%; }
 .line200 { line-height: 200%; }
 
+.limit1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
 .limit2 {
   overflow: hidden;
   text-overflow: ellipsis;
