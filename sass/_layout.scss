@@ -6,15 +6,19 @@
 .h-fill-min { min-width: 100%; }
 .v-fill-max { max-height: 100%; }
 .h-fill-max { max-width: 100%; }
-.h-100 {
-  min-height: 100px;
-}
-.h-200 {
-  min-height: 200px;
-}
-.h-300 {
-  min-height: 300px;
-}
+
+.y30 { min-height: 30px; }
+.y40 { min-height: 40px; }
+.y50 { min-height: 50px; }
+.y60 { min-height: 60px; }
+.y70 { min-height: 70px; }
+.y80 { min-height: 80px; }
+.y90 { min-height: 90px; }
+.y100 { min-height: 100px; }
+.y150 { min-height: 150px; }
+.y200 { min-height: 200px; }
+.y250 { min-height: 250px; }
+.y300 { min-height: 300px; }
 
 .inline { display: inline-block; }
 .relative { position: relative; }
