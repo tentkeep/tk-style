@@ -40,6 +40,16 @@
     calc(var(--primaryG) + (2 * var(--light-factor))),
     calc(var(--primaryB) + (2 * var(--light-factor)))
   );
+  --primary4: rgb(
+    calc(var(--primaryR) + (3 * var(--light-factor))),
+    calc(var(--primaryG) + (3 * var(--light-factor))),
+    calc(var(--primaryB) + (3 * var(--light-factor)))
+  );
+  --primary5: rgb(
+    calc(var(--primaryR) + (4 * var(--light-factor))),
+    calc(var(--primaryG) + (4 * var(--light-factor))),
+    calc(var(--primaryB) + (4 * var(--light-factor)))
+  );
   --primary-2: rgb(
     calc(var(--primaryR) - var(--light-factor)),
     calc(var(--primaryG) - var(--light-factor)),
