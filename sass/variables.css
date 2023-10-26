@@ -2,6 +2,8 @@
   --spacing-unit: 8px;
   --light-factor: 40;
 
+  --font-size: 16px;
+
   --base-colorR: 245; --base-colorG: 245; --base-colorB: 245;
   --base-color: rgb(var(--base-colorR), var(--base-colorG), var(--base-colorB));
   --base-color2: rgb(
