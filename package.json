@@ -1,19 +1,20 @@
 {
-  "name": "tk-style",
+  "name": "@tentkeep/tk-style",
   "version": "1.0.0",
+  "author": "Tentkeep",
+  "license": "ISC",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass-dev": "sass --watch --update --style=expanded assets/scss:assets/css",
-    "sass": "sass --no-source-map --style=compressed sass:css"
+    "build": "sass --no-source-map --style=compressed sass:css",
+    "ship": "./scripts/ship.sh"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tentkeep/styles.git"
+  "repository": "https://github.com/tentkeep/tk-style.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
-  "author": "Tentkeep",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/tentkeep/styles/issues"
   },
