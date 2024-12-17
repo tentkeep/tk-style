@@ -1,11 +1,11 @@
-@import "variables";
-@import "colors";
-@import "flex";
-@import "type";
-@import "animations";
-@import "transitions";
-@import "layout";
-@import "spacing";
+@use "variables";
+@use "colors";
+@use "flex";
+@use "type";
+@use "animations";
+@use "transitions";
+@use "layout";
+@use "spacing";
 
 html, body {
   height: 100%;

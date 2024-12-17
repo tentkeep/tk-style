@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/tentkeep/styles#readme",
   "devDependencies": {
-    "sass": "^1.54.2"
+    "sass": "^1.83.0"
   }
 }

@@ -1,5 +1,6 @@
+@use "sass:meta";
 $default-font-family: Arial, sans-serif;
-$font-family: if(variable-exists(font-family), $font-family, $default-font-family);
+$font-family: if(meta.variable-exists(font-family), $font-family, $default-font-family);
 $font-base-size: 16px;
 
 .app-font {
