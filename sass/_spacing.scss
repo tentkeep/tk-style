@@ -68,3 +68,45 @@ $spacing-unit: var(--spacing-unit);
 .m-2-right { margin-right: calc(-2 * $spacing-unit); }
 .m-1-left { margin-left: calc(-1 * $spacing-unit); }
 .m-2-left { margin-left: calc(-2 * $spacing-unit); }
+
+.p1px-right { padding-right: 1px;}
+.p1px-left { padding-left: 1px;}
+.p1px-top { padding-top: 1px;}
+.p1px-bottom { padding-bottom: 1px;}
+
+.p2px { padding: 2px;}
+.p2px-right { padding-right: 2px;}
+.p2px-left { padding-left: 2px;}
+.p2px-top { padding-top: 2px;}
+.p2px-bottom { padding-bottom: 2px;}
+.p4px { padding: 4px;}
+.p4px-right { padding-right: 4px;}
+.p4px-left { padding-left: 4px;}
+.p4px-top { padding-top: 4px;}
+.p4px-bottom { padding-bottom: 4px;}
+
+.x10 { width: 10px;}
+.x20 { width: 20px;}
+.y10 { height: 10px;}
+.y20 { height: 20px;}
+
+.m1px-right { margin-right: 1px;}
+.m1px-left { margin-left: 1px;}
+.m1px-top { margin-top: 1px;}
+.m1px-bottom { margin-bottom: 1px;}
+.m2px-right { margin-right: 2px;}
+.m2px-left { margin-left: 2px;}
+.m2px-top { margin-top: 2px;}
+.m2px-bottom { margin-bottom: 2px;}
+
+.font0 { font-size: var(); }
+.font-2em { font-size: 2em; }
+.font-3em { font-size: 3em; }
+.font-4em { font-size: 4em; }
+.font-5em { font-size: 5em; }
+.italic { font-style: italic;}
+
+.b2 { border-width: 2px;}
+.b3 { border-width: 3px;}
+.b4 { border-width: 4px;}
+.b5 { border-width: 5px;}
